@@ -2,7 +2,7 @@ using System;
 
 namespace DuckPond.ConsoleApp
 {
-    public class Duck
+    public abstract class Duck
     {
         public string Name { get; set; }
 
@@ -29,6 +29,22 @@ namespace DuckPond.ConsoleApp
         public void Land()
         {
             Console.WriteLine(DisplayName + ": Lands the pond");
+        }
+    }
+
+    public class MallardDuck : Duck
+    {
+        public MallardDuck()
+        {
+            Name = "Mallard";
+        }
+    }
+
+    public class RedheadDuck : Duck
+    {
+        public RedheadDuck()
+        {
+            Name = "Redhead Duck";
         }
     }
 }
