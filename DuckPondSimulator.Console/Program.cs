@@ -23,14 +23,15 @@ namespace DuckPond.ConsoleApp
                 }
             }
 
+            Console.WriteLine();
+            Console.WriteLine("Duck simulation begins.");
+            Console.WriteLine("Press any key to quit...");
+
             using (DuckSimulatorBuilder.GetDucksSimulator(duckAmount))
             {
                 Console.ReadKey();
             }
 
-            Console.WriteLine();
-            Console.WriteLine("Duck simulation begins.");
-            Console.WriteLine("Press any key to quit...");
             Console.WriteLine();
             Console.WriteLine("You leave the pond");
         }
