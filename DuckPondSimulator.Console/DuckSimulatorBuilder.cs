@@ -23,11 +23,14 @@ namespace DuckPond.ConsoleApp
 
         public static Duck GetRandomDuck(int index)
         {
-            int rnd = Random.Next(0, 2);
+            int rnd = Random.Next(0, 3);
             Duck d;
 
             switch(rnd)
             {
+                case 2:
+                    d = new RubberDuckie();
+                    break;
                 case 1 :
                     d = new RedheadDuck();
                     break;

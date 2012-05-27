@@ -31,4 +31,12 @@ namespace DuckPond.ConsoleApp
             Console.WriteLine(DisplayName + ": Lands the pond");
         }
     }
+
+    public class RubberDuckie : Duck
+    {
+        public RubberDuckie()
+        {
+            Name = "Rubber Duckie";
+        }
+    }
 }
