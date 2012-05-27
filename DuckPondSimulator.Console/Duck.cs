@@ -8,6 +8,16 @@ namespace DuckPond.ConsoleApp
 
         public int Index { get; set; }
 
+        public IQuackBehavior QuackBehavior { get; set; }
+
+        public IFlyBehavior FlyBehavior { get; set; }
+
+        protected Duck()
+        {
+            QuackBehavior = new Quack();
+            FlyBehavior = new Fly();
+        }
+
         public string DisplayName
         {
             get
@@ -18,12 +28,12 @@ namespace DuckPond.ConsoleApp
 
         public void Quack()
         {
-            Console.WriteLine(DisplayName + ": Quacks");
+            if (null != QuackBehavior) QuackBehavior.PerformQuack(DisplayName);
         }
 
         public void Fly()
         {
-            Console.WriteLine(DisplayName + ": Flies away");
+            if (null != FlyBehavior) FlyBehavior.PerformFly(DisplayName);
         }
 
         public void Land()

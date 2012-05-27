@@ -5,6 +5,8 @@ namespace DuckPond.ConsoleApp
         public RubberDuckie()
         {
             Name = "Rubber Duckie";
+            QuackBehavior = new Squeak();
+            FlyBehavior = new NoFly();
         }
     }
 }
