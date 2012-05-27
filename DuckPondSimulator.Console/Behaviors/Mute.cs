@@ -1,4 +1,4 @@
-namespace DuckPond.ConsoleApp
+namespace DuckPond.ConsoleApp.Behaviors
 {
     public class Mute : IQuackBehavior
     {

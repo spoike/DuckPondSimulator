@@ -1,4 +1,5 @@
 using System;
+using DuckPond.ConsoleApp.Behaviors;
 
 namespace DuckPond.ConsoleApp
 {

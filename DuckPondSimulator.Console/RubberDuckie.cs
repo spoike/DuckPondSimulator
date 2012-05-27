@@ -1,3 +1,5 @@
+using DuckPond.ConsoleApp.Behaviors;
+
 namespace DuckPond.ConsoleApp
 {
     public class RubberDuckie : Duck

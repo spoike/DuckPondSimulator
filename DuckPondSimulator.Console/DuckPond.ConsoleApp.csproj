@@ -50,20 +50,20 @@
   <ItemGroup>
     <Compile Include="Duck.cs" />
     <Compile Include="DuckSimulatorBuilder.cs" />
-    <Compile Include="Fly.cs" />
-    <Compile Include="IFlyBehavior.cs" />
-    <Compile Include="IQuackBehavior.cs" />
+    <Compile Include="Behaviors\Fly.cs" />
+    <Compile Include="Behaviors\IFlyBehavior.cs" />
+    <Compile Include="Behaviors\IQuackBehavior.cs" />
     <Compile Include="MallardDuck.cs" />
     <Compile Include="MultipleDuckSimulator.cs" />
-    <Compile Include="Mute.cs" />
-    <Compile Include="NoFly.cs" />
+    <Compile Include="Behaviors\Mute.cs" />
+    <Compile Include="Behaviors\NoFly.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Quack.cs" />
+    <Compile Include="Behaviors\Quack.cs" />
     <Compile Include="RedheadDuck.cs" />
     <Compile Include="RubberDuckie.cs" />
     <Compile Include="SingleDuckSimulator.cs" />
-    <Compile Include="Squeak.cs" />
+    <Compile Include="Behaviors\Squeak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

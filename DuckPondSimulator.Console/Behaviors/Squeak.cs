@@ -1,6 +1,6 @@
 using System;
 
-namespace DuckPond.ConsoleApp
+namespace DuckPond.ConsoleApp.Behaviors
 {
     public class Squeak : IQuackBehavior
     {
