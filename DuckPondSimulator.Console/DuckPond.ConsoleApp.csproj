@@ -50,9 +50,11 @@
   <ItemGroup>
     <Compile Include="Duck.cs" />
     <Compile Include="DuckSimulatorBuilder.cs" />
+    <Compile Include="MallardDuck.cs" />
     <Compile Include="MultipleDuckSimulator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedheadDuck.cs" />
     <Compile Include="SingleDuckSimulator.cs" />
   </ItemGroup>
   <ItemGroup>
