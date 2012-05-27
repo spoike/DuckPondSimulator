@@ -55,6 +55,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RedheadDuck.cs" />
+    <Compile Include="RubberDuckie.cs" />
     <Compile Include="SingleDuckSimulator.cs" />
   </ItemGroup>
   <ItemGroup>
