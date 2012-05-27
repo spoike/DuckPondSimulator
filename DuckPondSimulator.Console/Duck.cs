@@ -31,20 +31,4 @@ namespace DuckPond.ConsoleApp
             Console.WriteLine(DisplayName + ": Lands the pond");
         }
     }
-
-    public class MallardDuck : Duck
-    {
-        public MallardDuck()
-        {
-            Name = "Mallard";
-        }
-    }
-
-    public class RedheadDuck : Duck
-    {
-        public RedheadDuck()
-        {
-            Name = "Redhead Duck";
-        }
-    }
 }
